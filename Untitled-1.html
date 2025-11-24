@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genius Society</title>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Marcellus&display=swap" rel="stylesheet">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous">
+   
+    <style>
+       
+        body {
+            font-family: 'Cormorant Garamond', serif;
+            background-image: url(galaxy.jpg);
+            background-size: cover;                  
+            background-attachment: fixed;            
+            background-repeat: no-repeat;            
+        }
+
+
+         .navbar h1,
+         .main-content h2,
+       h2.text-center.text-danger {
+         color: rgb(253, 253, 253) !important;
+        }
+        .navbar .nav-link {
+         color: #d6abdd!important; 
+        }
+        .navbar .nav-link:hover {
+         color: #efe3fa !important; 
+        }
+
+        .navbar {
+            background-color: #32033b !important;
+        }
+       
+        .navbar h1 {
+            font-weight: bold;
+        }
+
+
+        .card-img-top {
+            height: 200px;
+            object-fit: contain;
+            background-color: #32033b;
+            padding: 10px;
+        }
+        .card-title {
+            color: rgb(37, 6, 37);
+        }
+        .btn-pink {
+            background-color: #510753;
+            border-color: #32033b;
+            color: rgb(244, 217, 255);
+            transition: background-color 0.2s;
+        }
+        .btn-pink:hover {
+            background-color: #ead9eb;
+            border-color: #ffffff;
+            color: rgb(81, 9, 95);
+        }
+
+
+        footer {
+            background-color: #510753;
+            background-color: #510753;
+            color: rgb(255, 234, 251);
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+        
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="nous.webp" width="100" height="100" alt="brand logo" class="rounded-circle me-2">
+                    <h1 class="h3 mb-0 text-danger fw-bold">Genius Society</h1>
+                </a>
+               
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+               
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark fw-bold" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Members</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <h2 class="text-center mb-4 display-4 text-danger">Genius Society Members</h2>
+       
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+   
+       <div class="col">
+        <div class="card shadow-sm h-100">
+            <img src="zandar.webp" class="card-img-top" alt="parfait">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Zandar One Kuwabara </h5>
+                <p class="card-text text-muted">Zandar One Kuwabara is the founder and first member of the Genius Society, as well as the creator of the Aeon known as Nous, the Aeon of Erudition. He was a brilliant scholar who sought to understand and master the universe through pure intellect. However, Zandar eventually grew disillusioned with his own creation when Nous’s power began to exceed its intended purpose. He believed that Nous had come to imprison knowledge instead of liberating it.</p>
+                <p class="card-text fw-bold fs-5 mt-auto">Founder & Member #1</p>
+                <button class="btn btn-pink mt-2">Learn More</button>
+              </div>
+          </div>
+       </div>
+
+       <div class="col">
+        <div class="card shadow-sm h-100">
+            <img src="NPC_Polka_Kakamond.webp" class="card-img-top" alt="espresso">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Polka Kakamond</h5>
+                <p class="card-text text-muted"> A brilliant yet eccentric female genius of the Genius Society. She views science as both art and chaos, crafting strange inventions that defy logic. Polka is also known for hunting other geniuses, treating it as a thrilling challenge to outwit and surpass the brightest minds in the universe.</p>
+                <p class="card-text fw-bold fs-5 mt-auto">Member #4</p>
+                <button class="btn btn-pink mt-2">Learn More</button>
+            </div>
+          </div>
+       </div>
+
+    <div class="col">
+        <div class="card shadow-sm h-100">
+            <img src="NPC_Stephen_Lloyd.webp" class="card-img-top" alt="Cake">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Stephen Lloyd</h5>
+                <p class="card-text text-muted">A calm and logical member of the Genius Society who studies the philosophy of intelligence and artificial life. He aims to bridge the gap between humans and machines, seeking the true essence of consciousness.</p>
+                <p class="card-text fw-bold fs-5 mt-auto">Member #84</p>
+                <button class="btn btn-pink mt-2">Learn More</button>
+            </div>
+        </div>
+    </div>
+   
+      <div class="col">
+        <div class="card shadow-sm h-100">
+            <img src="Screwllum_Portrait.webp" class="card-img-top" alt="Berry Bloom Latte">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Screwlum</h5>
+                <p class="card-text text-muted">A mechanical genius who turned himself into a robot to transcend the limits of flesh. Analytical, precise, and endlessly curious, Screwlum studies civilizations and technology to uncover the patterns behind intelligent creation.</p>
+                <p class="card-text fw-bold fs-5 mt-auto">Member #76</p>
+                <button class="btn btn-pink mt-2">Learn More</button>
+            </div>
+        </div>
+    </div>
+     <div class="col">
+        <div class="card shadow-sm h-100">
+            <img src="Herta_Portrait.webp" class="card-img-top" alt="Berry Bloom Latte">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">THE Herta</h5>
+                <p class="card-text text-muted">The master of the Herta Space Station and ranked 83rd in the Genius Society. Cold, calculating, and pragmatic, she focuses on collecting and experimenting with rare phenomena purely for the sake of curiosity and efficiency.</p>
+                <p class="card-text fw-bold fs-5 mt-auto">Member #84</p>
+                <button class="btn btn-pink mt-2">Learn More</button>
+            </div>
+        </div>
+    </div>
+     <div class="col">
+        <div class="card shadow-sm h-100">
+            <img src="Character_Ruan_Mei_Portrait.webp" class="card-img-top" alt="Berry Bloom Latte">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Ruan Mei</h5>
+                <p class="card-text text-muted">A graceful and kind researcher who contributed to the creation of the Simulated Universe. Fascinated by the evolution of life, she studies harmony between beauty, biology, and intelligence, seeing science as a way to nurture creation rather than control it.</p>
+                <p class="card-text fw-bold fs-5 mt-auto">Member #81</p>
+                <button class="btn btn-pink mt-2">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+    </main>
+   
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">&copy;  This website is proudly supported by <strong>Herta</strong>, the brilliant and enigmatic mind of the Genius Society.
+        Her curiosity fuels innovation and inspires our journey through knowledge and discovery.</p>
+        </div>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous">
+    </script>
+   
+</body>
+</html>
